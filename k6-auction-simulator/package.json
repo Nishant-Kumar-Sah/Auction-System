@@ -1,0 +1,22 @@
+{
+  "name": "k6-auction-simulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "verify": "node verify.js",
+    "sanity:v1": "k6 run scripts/01-sanity.js",
+    "sanity:v2": "k6 run -e VERSION=v2 scripts/01-sanity.js",
+    "load:v1": "k6 run scripts/02-load.js",
+    "load:v2": "k6 run -e VERSION=v2 scripts/02-load.js",
+    "concurrency:v1": "k6 run scripts/03-concurrency.js",
+    "concurrency:v2": "k6 run -e VERSION=v2 scripts/03-concurrency.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pg": "^8.19.0"
+  }
+}
