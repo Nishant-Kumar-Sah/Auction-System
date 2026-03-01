@@ -292,3 +292,6 @@ npm run verify
 | `DB_PASSWORD` | PostgreSQL password |
 | `DB_NAME` | PostgreSQL database name |
 | `DATABASE_URL` | Full connection string (used by Prisma if needed) |
+
+## Coming Up
+Kafka integration, Redis cachinng, optimistic locking
