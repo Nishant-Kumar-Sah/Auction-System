@@ -294,4 +294,4 @@ npm run verify
 | `DATABASE_URL` | Full connection string (used by Prisma if needed) |
 
 ## Coming Up
-Kafka integration, Redis cachinng, optimistic locking
+Kafka integration, Redis caching, optimistic locking, migration to fastify from express
